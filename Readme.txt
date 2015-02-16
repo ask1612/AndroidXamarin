@@ -7,7 +7,7 @@ _url =String.Format( "http://gdata.youtube.com/feeds/api/videos?vq={0}"+
 	This project was implemented to search and display images corresponding to the query string. The main highlight of this project is to implement a dual asynchronous request.  The first asynchronous request is the request of the JSON object.
  
 WebClientweb = newWebClient();
-web.DownloadStringCompleted += (s, e) =>
+web.DownloadStringCompleted += (s, e) =>     //First asynchronous request
 {
 ...
 
@@ -30,9 +30,9 @@ lstYTImageData.Add(dataN);
 
 ...
 
-	After receiving and decomposition into elements the second asynchronous procedure calls download the pictures.
+	After receiving and decomposition into elements the second asynchronous procedure call  downloads the pictures.
 
- DownloadYTImage (stringurl);
+ DownloadYTImage (stringurl);                             //Second asynchronous request
 
 	To build the form of display used the GridView template. As elements of the templates used ImageView and TextView. These elements are involved in the use with  public class   ImageYTAdapter, which is built on the basis of the  BaseAdapter<askImageYT.YTImageData>class. The templates of the GridView are populated with data using the method
  public override  View GetView (intposition, View customView, ViewGroup parent).
