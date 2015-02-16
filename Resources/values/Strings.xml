@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="enterStr">Enter</string>
+	<string name="txtViewStr">Enter the YT search string: </string>
+	<string name="txtResultStr">Result string</string>
+	<string name="app_name">askImageYT</string>
+</resources>
