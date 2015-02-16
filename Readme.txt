@@ -1,4 +1,4 @@
-	"Dual asynchronous HTTP request in Xamarin Android". 
+	"@Dual asynchronous HTTP request in Xamarin Android". 
 	This project is designed to search for information on YouTube. If in the request to YouTube the option "&alt" set to "json" the response from YouTube will come in the  form of a JSON object, which is easy then to collate items.
 _url =String.Format( "http://gdata.youtube.com/feeds/api/videos?vq={0}"+
 "&alt=json&orderby=rating&start-index=11&max-results=10",channel);
@@ -31,4 +31,4 @@ lstYTImageData.Add(dataN);
  The finding of the author in this project was the use of all of the above actions within a block
 RunOnUiThread(() =>
 {
-Attempt to implement this project without this instruction did not succeed. Perhaps there are other solutions, but this gives the result in the form of practical implementation, which is represented by the screenshots.
+	Attempt to implement this project without this instruction did not succeed. Perhaps there are other solutions, but this gives the result in the form of practical implementation, which is represented by the screenshots.
