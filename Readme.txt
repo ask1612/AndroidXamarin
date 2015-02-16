@@ -34,7 +34,7 @@ lstYTImageData.Add(dataN);
 
  DownloadYTImage (stringurl);                             //Second asynchronous request
 
-	To build the form of display used the GridView template. As elements of the templates used ImageView and TextView. These elements are involved in the use with  public class   ImageYTAdapter, which is built on the basis of the  BaseAdapter<askImageYT.YTImageData>class. The templates of the GridView are populated with data using the method
+	To build the form of display the GridView template is used . As elements of the templates are used ImageView and TextView. These elements are involved in the use with  public class   ImageYTAdapter, which is built on the basis of the  BaseAdapter<askImageYT.YTImageData>class. The templates of the GridView are populated with data using the method
  public override  View GetView (intposition, View customView, ViewGroup parent).
 
  The finding of the author in this project was the use of all of the above actions within a block
