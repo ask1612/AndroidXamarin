@@ -1,5 +1,5 @@
-Dual asynchronous HTTP request in Xamarin Android. 
-	This project is designed to search for information on YouTube. If in the request to YouTube the option <&alt> set to <json> the response from YouTube will come in the  form of a JSON object, which is easy then to collate items.
+	"Dual asynchronous HTTP request in Xamarin Android". 
+	This project is designed to search for information on YouTube. If in the request to YouTube the option "&alt" set to "json" the response from YouTube will come in the  form of a JSON object, which is easy then to collate items.
 _url =String.Format( "http://gdata.youtube.com/feeds/api/videos?vq={0}"+
 "&alt=json&orderby=rating&start-index=11&max-results=10",channel);
 	This project was implemented to search and display images corresponding to the query string. The main highlight of this project is to implement a dual asynchronous request.  The first asynchronous request is the request of the JSON object. 
